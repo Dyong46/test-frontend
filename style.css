@@ -107,6 +107,11 @@
   grid-column: 2;
   padding: 20px;
 }
+#menu-button i {
+  color: #afafaf;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
 .header-right {
   width: 931px;
   height: 130px;

@@ -10,16 +10,18 @@
       href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="stylesheet" href="global.css" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css">
   </head>
   <body>
     <div class="wrapper-outer">
       <!-- left -->
-      <div class="col-left">
+      <div id="col-left" class="col-left">
         <div class="logo">
-          <img src="./assets/images/logo.svg" alt="" />
+          <img src="./assets/images/logo.svg" alt="logo.svg" />
         </div>
         <div class="btn-title">
           <button>
@@ -30,35 +32,35 @@
           <li>
             <a href="#">
               <p class="content-item">検査結果画面の解説</p>
-              <img src="./assets/icons/fa-solid fa-angle-right.svg" alt="" />
+              <img src="./assets/icons/fa-solid fa-angle-right.svg" alt="fa-angle-right.svg" />
             </a>
           </li>
 
           <li>
             <a href="#">
               <p class="content-item">主な機能</p>
-              <img src="./assets/icons/fa-solid fa-angle-right.svg" alt="" />
+              <img src="./assets/icons/fa-solid fa-angle-right.svg" alt="fa-angle-right.svg" />
             </a>
           </li>
 
           <li>
             <a href="#">
               <p class="content-item">利用シーン別ガイド</p>
-              <img src="./assets/icons/fa-solid fa-angle-right.svg" alt="" />
+              <img src="./assets/icons/fa-solid fa-angle-right.svg" alt="fa-angle-right.svg" />
             </a>
           </li>
 
           <li>
             <a href="#">
               <p class="content-item">初めてご利用の方へ</p>
-              <img src="./assets/icons/fa-solid fa-angle-right.svg" alt="" />
+              <img src="./assets/icons/fa-solid fa-angle-right.svg" alt="fa-angle-right.svg" />
             </a>
           </li>
 
           <li>
             <a href="#">
-              <p class="content-item">FAQs</p>
-              <img src="./assets/icons/fa-solid fa-angle-right.svg" alt="" />
+              <p class="content-item">FAQ</p>
+              <img src="./assets/icons/fa-solid fa-angle-right.svg" alt="fa-angle-right.svg" />
             </a>
           </li>
         </ul>
@@ -71,19 +73,22 @@
               <img
                 style="margin-right: 10px"
                 src="./assets/icons/fa-house.svg"
-                alt=""
+                alt="fa-house.svg"
               />
               <p>トップ</p>
             </div>
+            <div id="menu-button">
+              <i class="fa-solid fa-bars"></i>
+            </div>
             <div class="icon-right">
               <p style="margin-right: 3px">ログイン</p>
-              <img src="./assets/icons/fa-regular fa-envelope.svg" alt="" />
+              <img src="./assets/icons/fa-regular fa-envelope.svg" alt="fa-envelope.svg" />
               <p style="margin-right: -2px; padding-right: 10px">
                 お問い合わせ
               </p>
               <img
                 src="./assets/icons/fa-solid fa-arrow-up-right-from-square.svg"
-                alt=""
+                alt="fa-arrow-up-right-from-square.svg"
               />
             </div>
           </div>
@@ -96,7 +101,7 @@
                 <input type="text" placeholder="キーワードを入力" />
                 <img
                   src="./assets/icons/fa-solid fa-magnifying-glass.svg"
-                  alt=""
+                  alt="fa-magnifying-glass.svg"
                 />
               </div>
               <!-- button-right -->
@@ -107,7 +112,7 @@
 
         <!-- //introduce -->
         <div class="introduce">
-          <img src="./assets/images/introduce.svg" alt="" />
+          <img src="./assets/images/introduce.svg" alt="introduce.svg" />
           <div class="content-introduce">
             <h2>利用シーン別ガイド</h2>
             <p>SALES SCOREを様々なシーンでご活用いただく方法をご紹介します。</p>
@@ -119,7 +124,7 @@
           <!--top-->
           <div class="catalog-item">
             <div class="border-choose">
-              <img src="./assets/icons/chart-bar.svg" alt="" />
+              <img src="./assets/icons/chart-bar.svg" alt="chart-bar.svg" />
               <p>受検者の営業活動の特徴を 見える化したい</p>
             </div>
 
@@ -132,7 +137,7 @@
                   margin-top: 6px;
                 "
                 src="./assets/icons/user.svg"
-                alt=""
+                alt="user.svg"
               />
               <p>ポテンシャルの高い人材を 採用したい</p>
             </div>
@@ -141,7 +146,7 @@
               <img
                 style="width: 36px; height: 42px; margin-right: 10px"
                 src="./assets/icons/up.svg"
-                alt=""
+                alt="up.svg"
               />
               <p style="padding-bottom: 16px; letter-spacing: 2px">
                 離職率を改善したい
@@ -156,7 +161,7 @@
               <img
                 style="width: 29px; height: 29px"
                 src="./assets/icons/search.svg"
-                alt=""
+                alt="search.svg"
               />
               <p style="padding-bottom: 10px">成績優秀層を分析したい</p>
             </div>
@@ -170,7 +175,7 @@
                   margin-right: 5px;
                 "
                 src="./assets/icons/window.svg"
-                alt=""
+                alt="window.svg"
               />
               <p style="padding-bottom: 14px">自社の特徴を理解したい</p>
             </div>
@@ -179,7 +184,7 @@
               <img
                 style="width: 41px; height: 32px; margin: 0"
                 src="./assets/icons/chat.svg"
-                alt=""
+                alt="chat.svg"
               />
               <p style="width: 242px; padding: 0">
                 社員のコミュニケーションを 改善したい
@@ -191,7 +196,7 @@
         <!--output-item-->
 
         <div class="output">
-          <img src="./assets/images/output.svg" alt="" />
+          <img src="./assets/images/output.svg" alt="output.svg" />
           <div class="content-output">
             <h2>検査結果画面の解説</h2>
             <p>SALES SCOREのアウトプット項目について紹介します。</p>
@@ -204,37 +209,33 @@
 
           <div class="option">
             <div class="option-item">
-              <img src="./assets/images/option-1.svg" alt="" />
+              <img src="./assets/images/option-1.svg" alt="option-1.svg" />
               <p>データサマリー</p>
             </div>
 
-            <div class="option">
-              <div class="option-item">
-                <img
-                  src="./assets/images/option-2.svg"
-                  alt=""
-                  style="
-                    width: 112px;
-                    height: 42px;
-                    margin-bottom: 10px;
-                    margin-right: 2px;
-                  "
-                />
-                <p style="padding-top: 24px">データ詳細</p>
-              </div>
+            <div class="option-item">
+              <img
+                src="./assets/images/option-2.svg"
+                alt="option-2.svg"
+                style="
+                  width: 112px;
+                  height: 42px;
+                  margin-bottom: 10px;
+                  margin-right: 2px;
+                "
+              />
+              <p style="padding-top: 24px">データ詳細</p>
+            </div>
 
-              <div class="option">
-                <div class="option-item">
-                  <img
-                    src="./assets/images/option-3.svg"
-                    alt=""
-                    style="width: 107px; height: 56px; margin-right: 4px"
-                  />
-                  <p style="padding-top: 22px; padding-right: 13px">
-                    データ比較
-                  </p>
-                </div>
-              </div>
+            <div class="option-item">
+              <img
+                src="./assets/images/option-3.svg"
+                alt="option-3.svg"
+                style="width: 107px; height: 56px; margin-right: 4px"
+              />
+              <p style="padding-top: 22px; padding-right: 13px">
+                データ比較
+              </p>
             </div>
           </div>
         </div>
@@ -247,64 +248,58 @@
             <div class="option-item">
               <img
                 src="./assets/images/option-4.svg"
-                alt=""
+                alt="option-4.svg"
                 style="width: 108px; height: 57px; margin-bottom: 21px"
               />
               <p style="padding-top: 4px">全体比較</p>
             </div>
 
-            <div class="option">
-              <div class="option-item">
-                <img
-                  src="./assets/images/option-5.svg"
-                  alt="Image"
-                  style="
-                    width: 109px;
-                    height: 57px;
-                    margin-bottom: 22px;
-                    margin-right: 4px;
-                  "
-                />
-                <p style="padding-top: 1px; padding-right: 0px">
-                  営業タイプ傾向
-                </p>
-              </div>
+            <div class="option-item">
+              <img
+                src="./assets/images/option-5.svg"
+                alt="Image"
+                style="
+                  width: 109px;
+                  height: 57px;
+                  margin-bottom: 22px;
+                  margin-right: 4px;
+                "
+              />
+              <p style="padding-top: 1px; padding-right: 0px">
+                営業タイプ傾向
+              </p>
+            </div>
 
-              <div class="option">
-                <div class="option-item">
-                  <img
-                    src="./assets/images/option-6.svg"
-                    alt=""
-                    style="
-                      width: 108px;
-                      height: 57px;
-                      margin-bottom: 20px;
-                      margin-right: 12px;
-                    "
-                  />
-                  <p style="padding-top: 2px; padding-right: 4px">
-                    High-Low分析
-                  </p>
-                </div>
-              </div>
+            <div class="option-item">
+              <img
+                src="./assets/images/option-6.svg"
+                alt="option-6.svg"
+                style="
+                  width: 108px;
+                  height: 57px;
+                  margin-bottom: 20px;
+                  margin-right: 12px;
+                "
+              />
+              <p style="padding-top: 2px; padding-right: 4px">
+                High-Low分析
+              </p>
+            </div>
 
-              <div class="option">
-                <div class="option-item">
-                  <img
-                    src="./assets/images/option-7.svg"
-                    alt=""
-                    style="
-                      width: 105px;
-                      height: 44px;
-                      margin-bottom: 23px;
-                      margin-right: 6px;
-                    "
-                  />
-                  <p style="padding-top: 10px; padding-right: 7px">
-                    構成比比較
-                  </p>
-                </div>
-              </div>
+            <div class="option-item">
+              <img
+                src="./assets/images/option-7.svg"
+                alt="option-7.svg"
+                style="
+                  width: 105px;
+                  height: 44px;
+                  margin-bottom: 23px;
+                  margin-right: 6px;
+                "
+              />
+              <p style="padding-top: 10px; padding-right: 7px">
+                構成比比較
+              </p>
             </div>
           </div>
         </div>
@@ -318,7 +313,7 @@
             <div class="option-item">
               <img
                 src="./assets/images/option-8.svg"
-                alt=""
+                alt="option-8.svg"
                 style="
                   width: 134px;
                   height: 52px;
@@ -331,22 +326,20 @@
               </p>
             </div>
 
-            <div class="option">
-              <div class="option-item">
-                <img
-                  src="./assets/images/option-9.svg"
-                  alt=""
-                  style="
-                    width: 109px;
-                    height: 57px;
-                    margin-bottom: 22px;
-                    margin-right: 0px;
-                  "
-                />
-                <p style="padding-top: 3px; padding-right: 0px">
-                  表示される営業タイプ
-                </p>
-              </div>
+            <div class="option-item">
+              <img
+                src="./assets/images/option-9.svg"
+                alt="option-9.svg"
+                style="
+                  width: 109px;
+                  height: 57px;
+                  margin-bottom: 22px;
+                  margin-right: 0px;
+                "
+              />
+              <p style="padding-top: 3px; padding-right: 0px">
+                表示される営業タイプ
+              </p>
             </div>
           </div>
         </div>
@@ -354,7 +347,7 @@
         <div class="how-to-use" style="padding-top: 48px">
           <img
             src="./assets/images/how-to-use2x.png"
-            alt=""
+            alt="how-to-use2x.png"
             style="width: 125px; height: 117px"
           />
           <div class="content-use">
@@ -464,5 +457,16 @@
     <footer>
       <p>Copyright © 2022 SALES SCORE All Right Reserved. .</p>
     </footer>
+
+    <script>
+      var menuButton = document.getElementById('menu-button');
+      var colLeft = document.getElementById('col-left');
+      var icon = document.querySelector('#menu-button i');
+    
+      menuButton.addEventListener('click', function() {
+        colLeft.classList.toggle('open');
+        icon.classList.toggle('active')
+      });
+    </script>
   </body>
 </html>
